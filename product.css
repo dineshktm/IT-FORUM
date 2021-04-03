@@ -1,0 +1,63 @@
+.full
+{
+    background-color: #1f1b29;;
+}
+
+#heading{
+
+    padding-top: 50px;
+    margin-left : 500px;
+    color : white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.card-deck{
+    padding : 80px;
+}
+
+.card:hover{
+    
+    border-color : #f1ff5c;
+    color : black;
+    box-shadow: 0 8px 8px -6.4px #f1ff5c;
+    transform: translateY(-4px);
+    cursor: pointer;
+}
+
+#back{
+  background-color: blue
+  
+}
+
+#back:hover{
+    background-color: transparent;
+    cursor: pointer;
+}
+
+@media (max-width : 1500px)
+{
+    #heading{
+        margin-left : 500px;
+    }
+}
+@media (max-width : 1000px)
+{
+    #heading{
+        margin-left : 400px;
+    }
+}
+
+@media (max-width : 600px)
+{
+    #heading{
+        margin-left : 100px;
+    }
+}
+
+
+@media (max-width : 500px)
+{
+    #heading{
+        margin-left : 50px;
+    }
+}
